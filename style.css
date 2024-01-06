@@ -105,7 +105,6 @@ nav h3 {
 #center {
     height: 65vh;
     width: 100%;
-    /* background-color: orange; */
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -137,7 +136,7 @@ nav h3 {
     width: 46vw;
     height: 36vw;
     right: 0;
-    top: 65vh;
+    top: 65vh; 
 }
 
 #hero-1 {
@@ -152,7 +151,6 @@ nav h3 {
 
 #hero-2 {
     background: linear-gradient(#FE320A, #fe3f0a);
-
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
@@ -296,7 +294,7 @@ nav h3 {
     left: 25%;
     filter: blur(20px);
     animation-name: gooey;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
@@ -600,7 +598,6 @@ nav h3 {
         position: absolute;
         border-radius: 50%;
         background: linear-gradient(to top right, #ff2d03, #ff5c0b);
-        /* background: linear-gradient(to top right,red,blue); */
 
 
         top: 58%;
