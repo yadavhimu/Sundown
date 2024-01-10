@@ -372,8 +372,48 @@ nav h3 {
 }
 #pagemiddle{
     background-color: #EFEAE3;
-    width:100%;
+    display:flex;
+    justify-content: space-between;
 }
+
+#leftmiddle{
+    display: flex;
+    flex-direction: column;
+    padding:3vw 2vw;
+    width: 50%;
+    height:100vh;
+    background-color: #000;
+    margin-left: 1.5vw;
+    border-radius: 2vw;
+}
+#leftmiddle p{
+    color:#ababab;
+    margin-top: 10vw;
+    margin-left: 4vw;
+}
+#heading{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+}
+#heading a{
+    text-decoration: none;
+    color: #dadada;
+    font-size: 4vw;
+    border-left: 1px solid #ababab;
+}
+
+#rightmiddle{
+    background-color: #ababab;
+    width: 70%;
+    margin-right: 1.5vw;
+}
+#images img{
+    height:100vh;
+    width:100%;
+    object-fit: cover;
+}
+
 
 
 #page4 {
