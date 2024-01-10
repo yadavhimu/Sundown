@@ -370,6 +370,11 @@ nav h3 {
     background-size: cover;
     background-position: center;
 }
+#pagemiddle{
+    background-color: #EFEAE3;
+    width:100%;
+}
+
 
 #page4 {
     height: 70vh;
@@ -437,12 +442,10 @@ nav h3 {
 }
 
 #full-div1 {
-    height: 50%;
     width: 100%;
     background-color: #EFEAE3;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-
 }
 
 @media (max-width:600px) {
@@ -463,6 +466,14 @@ nav h3 {
         transition: all ease 0.2s;
         height: 9vh;
     }
+    #full-div1 {
+        flex-direction: column;
+        display: flex;
+        align-items: end;
+        margin-top: 35vw;
+        font-size: 10vw;
+        padding: 6vw;
+    }
 
     #nav-part2 {
         display: none;
@@ -477,7 +488,6 @@ nav h3 {
         font-weight: 200;
         padding-left: 10vw;
     }
-
     #center {
         height: 62vh;
         width: 100%;
