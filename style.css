@@ -384,10 +384,11 @@ nav h3 {
     height:100vh;
     background-color: #000;
     margin-left: 1.5vw;
-    border-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
 }
 #leftmiddle p{
-    color:#ababab;
+    color:#f1eded;
     margin-top: 10vw;
     margin-left: 4.5vw;
     font-size: 1.3vw;
@@ -396,7 +397,6 @@ nav h3 {
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
-    /* border-left: 1px solid #ababab; */
 }
 #heading a{
     text-decoration: none;
@@ -407,9 +407,12 @@ nav h3 {
 }
 
 #rightmiddle{
-    /* background-color: #ababab; */
     width: 70%;
+    height: 100vh;
     margin-right: 1.5vw;
+    background-color: #000;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
 #images img{
     height:100vh;
@@ -441,7 +444,6 @@ nav h3 {
 #page5 {
     height: 100vh;
     width: 100%;
-    /* background-color: #EFEAE3; */
 }
 
 #footer {
@@ -453,7 +455,6 @@ nav h3 {
     z-index: 9;
     bottom: 0;
     display: flex;
-    /* align-items: flex-end; */
     justify-content: flex-end;
     flex-direction: column;
     padding: 1vw 3vw;
