@@ -440,6 +440,11 @@ nav h3 {
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
 }
+.swiper-slide p{
+    font-size: 1vw;
+    font-weight: 300;
+
+}
 
 #page5 {
     height: 100vh;
