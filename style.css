@@ -396,11 +396,13 @@ nav h3 {
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
+    /* border-left: 1px solid #ababab; */
 }
 #heading a{
     text-decoration: none;
     color: #dadada;
     font-size: 4.5vw;
+    padding-left: .5vw;
     border-left: 1px solid #ababab;
 }
 
