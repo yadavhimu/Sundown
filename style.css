@@ -467,6 +467,12 @@ nav h3 {
     padding: 1vw 3vw;
 }
 
+#box{
+    width:30vh;
+    height:30vh;
+    background-color: blue;
+}
+
 #footer h1 {
     font-size: 23vw;
 }
@@ -475,11 +481,12 @@ nav h3 {
     height: 20vh;
     width: 100%;
     background-color: red;
+    padding: 2vw;
 }
 
 #footer-bottom {
     border-top: 1px solid #dadada;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
 }
 

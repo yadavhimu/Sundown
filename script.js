@@ -23,15 +23,15 @@ function page4Animation() {
     })
 }
 
-var middle = document.querySelector("#heading")
-var right = document.querySelectorAll("#rightmiddle")
-middle.addEventListener("click", function(e){
-    console.log(e);
-    console.log(e.target);
-    if(e.target.id ==="design"){
-        right.style.backgroundImage = `url(${img})`
-    }
-})
+// var middle = document.querySelector("#heading")
+// var right = document.querySelectorAll("#rightmiddle")
+// middle.addEventListener("click", function(e){
+//     console.log(e);
+//     console.log(e.target);
+//     if(e.target.id ==="design"){
+//         right.style.backgroundImage = `url(${img})`
+//     }
+// })
 
 function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
