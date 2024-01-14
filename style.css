@@ -461,10 +461,15 @@ nav h3 {
     color: #fff;
     z-index: 9;
     bottom: 0;
-    display: flex;
-    justify-content: flex-end;
+    /* padding: 3vw; */
     flex-direction: column;
-    padding: 3vw;
+}
+
+#base{
+height:50vh;
+width: 100%;
+background-color: #FE320A;
+    
 }
 
 #box{
