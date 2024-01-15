@@ -598,6 +598,7 @@ nav h3 {
         padding: 8vw 5vw;
         background-color: #EFEAE3;
         /* padding: 0 5vw; */
+
     }
 
     nav img {
@@ -610,7 +611,7 @@ nav h3 {
         align-items: end;
         margin-top: 35vw;
         font-size: 10vw;
-        padding: 6vw;
+        padding: 11vw;
     }
 
     #nav-part2 {
@@ -627,9 +628,8 @@ nav h3 {
         padding-left: 10vw;
     }
     #center {
-        height: 62vh;
+        height: 55vh;
         width: 100%;
-        /* background-color: orange; */
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
@@ -657,7 +657,7 @@ nav h3 {
         position: relative;
         border-radius: 15px;
         margin-top: 4vw;
-        height: 70vh;
+        height: 55vh;
         object-fit: cover;
         object-position: center;
         width: 92%;
@@ -697,7 +697,7 @@ nav h3 {
     }
 
     #gola {
-        height: 25px;
+        height: 35px;
         width: 25px;
         border-radius: 50%;
         display: inline-block;
@@ -706,7 +706,7 @@ nav h3 {
     }
 
     #page2-bottom {
-        height: 90vh;
+        height: 80vh;
         width: 100%;
         /* background-color: aliceblue; */
         padding: 10vw 4vw;
@@ -735,20 +735,20 @@ nav h3 {
     }
 
     #bottom-part2 p {
-        font-weight: 200;
+        font-weight: 400;
         margin-top: 2vw;
         font-size: 3vw;
     }
 
     #page2 #gooey {
-        height: 62vw;
+        height: 60vw;
         width: 62vw;
         position: absolute;
         border-radius: 50%;
         background: linear-gradient(to top right, #ff2d03, #ff5c0b);
 
 
-        top: 58%;
+        top: 50%;
         left: 25%;
         filter: blur(20px);
         animation-name: gooey;
@@ -757,6 +757,60 @@ nav h3 {
         animation-direction: alternate;
         animation-timing-function: ease-in-out;
 
+    }
+    #page3 {
+        min-height: 70vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 4vw 0;
+    }
+    
+    .elem {
+        height: 70px;
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid #38383864;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding-left: 4vw;
+
+    }
+    
+    .elem h2 {
+        font-size: 4vw;
+        position: relative;
+        z-index: 9;
+    }
+    
+    .elem .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: orange;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        transition: all ease 0.25s;
+    }
+    
+    .elem:hover .overlay {
+        top: 0;
+    }
+    
+    
+    
+    #fixed-image {
+        height: 30vw;
+        width: 24vw;
+        /* background-color: red; */
+        border-radius: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 50%;
+        top: 25%;
+        display: none;
+        background-size: cover;
+        background-position: center;
     }
 
 
