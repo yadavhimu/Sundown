@@ -459,7 +459,6 @@ nav h3 {
     width: 100%;
     background-color: #000;
     color: #fff;
-    /* z-index: 9; */
     bottom: 0;
     display: flex;
     align-items: center;
@@ -514,13 +513,13 @@ nav h3 {
     }
 
     to {
-        transform: translate(0%, 15%);
+        transform: translate(0%, 25%);
     }
 }
 #two{
     background: linear-gradient(#FE320A, #fe3f0a);
     height: 35vh;
-    width: 55vw;
+    width: 65vw;
     z-index: 10;
     filter: blur(25px);
     margin-left: 40vw;
@@ -535,7 +534,9 @@ nav h3 {
 #three{
     background: linear-gradient(#FE320A, #fe3f0a);
     height: 65vh;
-    width: 45vw;
+    width: 35vw;
+    position:absolute;
+    margin-left: 70vw;
     filter: blur(25px);
     border-bottom-left-radius: 50%;
     animation-name: three;
@@ -854,7 +855,7 @@ nav h3 {
         width:100%;
         object-fit: cover;
         border-radius: 2vw;
-        
+
     }
     
 
