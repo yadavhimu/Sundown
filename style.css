@@ -327,7 +327,6 @@ nav h3 {
     height: 150px;
     width: 100%;
     position: relative;
-
     border-bottom: 1px solid #38383864;
     overflow: hidden;
     display: flex;
@@ -473,21 +472,30 @@ nav h3 {
 }
 
 #footer-div {
-    height: 30vh;
+    /* height: 30vh; */
     width: 100%;
 
 }
 #animation{
     display: flex;
+    height: 35vh;
     position: relative;
+    filter: blur(15px);
+    background-color:#fe3f0a;
 }
 
 #insidefooter{
     position: absolute;
     z-index: 999;
+    display: flex;
     align-items: center;
     margin-top: 7vw;
     margin-left: 6vw;
+}
+
+#footertopright{
+    width: 20vw;
+    margin-left: 55vw;
 }
 #one{
     background: linear-gradient(#FE320A, #fe3f0a);
@@ -730,7 +738,7 @@ nav h3 {
         height: 50vw;
         width: 40vw;
         border-radius: 15px;
-        position: fixed;
+        /* position: fixed; */
     }
 
     #pagemiddle{
@@ -789,12 +797,13 @@ nav h3 {
     
     #footer {
         position: fixed;
+        /* height: 50vh; */
         width: 100%;
         bottom: 0;
     }
     
     #footer h1 {
-        font-size: 23vw;
+        font-size: 24vw;
         z-index: 12;
     }
     
@@ -809,11 +818,23 @@ nav h3 {
     }
     
     #insidefooter{
-        margin-top: 40vw;
+        flex-direction: column;
+        margin-top: 30vw;
+        margin-left: 1vw;
+    }
+    
+    #footertop{
+    width: 100%;
+    margin-left: 4vw;
+    margin-bottom: 4vw;
+    }
+    #footertopright{
+        width: 70vw;
+        margin-left: 3vw;
     }
     #one{
         background: linear-gradient(#FE320A, #fe3f0a);
-        height: 25vh;
+        height: 35vh;
         width: 45vw;
         z-index: 10;
         position: absolute;
@@ -838,7 +859,7 @@ nav h3 {
     }
     #two{
         background: linear-gradient(#FE320A, #fe3f0a);
-        height: 25vh;
+        height: 35vh;
         width: 65vw;
         z-index: 10;
         filter: blur(25px);
@@ -878,8 +899,11 @@ nav h3 {
     
     #footer-bottom {
         border-top: 1px solid #dadada;
-        height: 3vh;
+        height: 5vh;
         width: 100%;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
     }
     
     #bottomdetail{
