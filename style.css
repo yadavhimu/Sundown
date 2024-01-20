@@ -283,8 +283,6 @@ nav h3 {
     position: absolute;
     border-radius: 50%;
     background: linear-gradient(to top right, #ff2d03, #ff5c0b);
-
-
     top: 58%;
     left: 25%;
     filter: blur(20px);
@@ -344,7 +342,6 @@ nav h3 {
     top: -100%;
     transition: all ease 0.25s;
 }
-
 .elem:hover .overlay {
     top: 0;
 }
