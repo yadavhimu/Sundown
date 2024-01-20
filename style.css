@@ -546,7 +546,6 @@ nav h3 {
     height: 6vh;
     width: 100%;
 }
-
 #bottomdetail{
  display: flex;
  font-size: .7vw;
@@ -554,7 +553,6 @@ nav h3 {
  align-items: center;
  padding: .5vw;
 }
-
 #full-scr {
     height: 100vh;
     width: 100%;
@@ -564,7 +562,6 @@ nav h3 {
     top: -100%;
     transition: all ease 0.5s;
 }
-
 #full-div1 {
     width: 100%;
     background-color: #EFEAE3;
@@ -749,8 +746,6 @@ nav h3 {
         height: 35vh;
         padding-top: 15vw;
     }
-    
-    
     .swiper-slide {
         width: 35%;
     }
@@ -763,8 +758,6 @@ nav h3 {
         height: 50vh;
         width: 100%;
     }
-    
-    
     #footer h1 {
         font-size: 24vw;
         z-index: 12;
@@ -773,19 +766,16 @@ nav h3 {
     #footer-div {
         height: 40vh;
         width: 100%;
-    
     }
     #animation{
         display: flex;
         position: relative;
     }
-    
     #insidefooter{
         flex-direction: column;
         margin-top: 30vw;
         margin-left: 1vw;
     }
-    
     #footertop{
     width: 100%;
     margin-left: 5vw;
