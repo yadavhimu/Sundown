@@ -407,9 +407,6 @@ nav h3 {
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
-
-
-
 #page4 {
     height: 70vh;
     width: 100%;
@@ -452,10 +449,6 @@ nav h3 {
     justify-content: flex-end;
     flex-direction: column;
 }
-
-
-
-
 #footer h1 {
     font-size: 23vw;
     z-index: 12;
@@ -472,7 +465,6 @@ nav h3 {
     filter: blur(15px);
     background-color:#fe3f0a;
 }
-
 #insidefooter{
     position: absolute;
     z-index: 999;
